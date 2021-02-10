@@ -1,0 +1,14 @@
+# Razzle generated files
+obj
+objfre
+objchk
+
+build.log
+build.wrn
+build.err
+build.dat
+
+# Visual studio generated files
+objvs
+.vs
+*.aps
