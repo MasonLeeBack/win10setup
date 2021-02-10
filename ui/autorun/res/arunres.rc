@@ -1,0 +1,75 @@
+//
+// arunres.rc
+//
+// Copyright (c) Microsoft Corporation
+// Reverse-engineered by github/masonleeback
+//
+
+
+#include <windows.h>
+#include <ntverp.h>
+
+#define VER_FILETYPE			VFT_DLL
+#define VER_FILESUBTYPE			VFT_UNKNOWN
+#define VER_FILEDESCRIPTION_STR         "Autorun Wizard Page Resources"
+#define VER_INTERNALNAME_STR            "ARunRes.dll"
+#define VER_ORIGINALFILENAME_STR        "ARunRes.dll"
+
+#include "common.ver"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+1200 DIALOGEX 0, 0, 350, 227
+STYLE DS_SETFONT | WS_CHILD | WS_CAPTION
+CAPTION "Windows Setup"
+FONT 9, "Segoe UI", 400, 0, 0x1
+BEGIN
+    CONTROL "flag",1207,"Static",SS_BITMAP | SS_CENTERIMAGE,147,25,100,70,WS_EX_TRANSPARENT
+    CONTROL "\xA9 2021 Microsoft Corporation. All rights reserved.", 1205, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 16, 207, 250, 16
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+BEGIN
+  550, "&Back"
+  551, "Cancel"
+END
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+BEGIN
+  1250, "Windows Setup"
+  1251, "Windows Setup"
+  1252, "Windows Setup"
+  1254, "&Install now"
+  1255, "&What to know before installing Windows"
+  1256, "&Repair your computer"
+  1257, "Install Windows Server - &foundation roles only, command-line interface"
+  1258, "&Install Windows Server - all server roles, graphical interface"
+  1259, "readme.rtf"
+  1260, "To install Windows, you must run Windows installation. If you cancel the installation, your computer might restart.\r\n\r\nAre you sure you want to cancel Windows installation?"
+  1261, "Setup initialization failed."
+  1262, "Failed to launch the setup application."
+  1263, "An error occurred while trying to set the UI language to [%s]."
+END
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+BEGIN
+  1264, "An error occurred while trying to determine Setup language. Error code is [0x%X]."
+  1267, "Help and Support"
+  1268, "Use the other installation disc that says 64-bit. When you insert it, Windows Setup will restart automatically."
+  1269, "Windows installation cannot be started from the current operating system. To install Windows, boot from the installation media, or upgrade from a supported operating system and restart the installation."
+  1270, "The installation process was launched with an invalid command line argument."
+  1271, "It looks like you started an upgrade and booted from installation media. If you want to continue with the upgrade, remove the media from your PC and click Yes. If you want to perform a clean installation instead, click No."
+END

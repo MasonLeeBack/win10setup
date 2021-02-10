@@ -125,7 +125,7 @@ DWORD UTLString::FormatMessageW(HINSTANCE hInstance, DWORD uID, ...)
     if (strSize != 0) {
         strUse = ustFormat->m_lpsz;
         if (ustFormat->m_lpsz == NULL) {
-            // strUse = &DllPath;
+            // strUse = &DllPath; why is this using a dependency from autorun???
         }
         strSize = ::FormatMessage(FORMAT_MESSAGE_FROM_STRING | FORMAT_MESSAGE_ALLOCATE_BUFFER, strUse, 0, 0, (LPWSTR)&m_lpsz, 0, &args);
         m_cch = strSize;

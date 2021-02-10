@@ -133,7 +133,7 @@ DWORD atr_RunAutorun(HINSTANCE hInstance, const wchar_t* lpDllPath, const wchar_
     if (hAutorunDll != NULL) {
         StartAutorun = GetProcAddress(hAutorunDll, "StartAutorun");
         if (StartAutorun != NULL) {
-            dwResult = ((int (__thiscall*)(FARPROC, const wchar_t*))StartAutorun)(StartAutorun, lpCmdLine); // todo: does this actually work?
+            dwResult = ((int (__thiscall*)(FARPROC, const wchar_t*))StartAutorun)(StartAutorun, lpCmdLine);
             bDllFound = true;
         } else {
             dwResult = GetLastError();

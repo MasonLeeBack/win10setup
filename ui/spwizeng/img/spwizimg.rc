@@ -1,0 +1,62 @@
+//
+// arunimg.rc
+//
+// Copyright (c) Microsoft Corporation
+// Reverse-engineered by github/masonleeback
+//
+
+
+#include <windows.h>
+#include <ntverp.h>
+
+#define VER_FILETYPE			VFT_DLL
+#define VER_FILESUBTYPE			VFT_UNKNOWN
+#define VER_FILEDESCRIPTION_STR         "Setup Wizard Framework Resources"
+#define VER_INTERNALNAME_STR            "spwizres.dll"
+#define VER_ORIGINALFILENAME_STR        "spwizres.dll"
+
+#include "common.ver"
+#include "spwizimg.h"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmaps
+//
+
+IDB_HELPWINDOWBORDER BITMAP         "img\\helpwindowborder.bmp"
+IDB_HELPICONLG      BITMAP          "img\\helpiconlg.bmp"
+IDB_MIGWINDOWBORDER BITMAP          "img\\migwindowborder.bmp"
+IDB_MBWINDOWBORDER  BITMAP          "img\\mbwindowborder.bmp"
+
+IDB_WINLOGO         BITMAP          "img\\winlogo.bmp"
+IDB_WINLOGO2        BITMAP          "img\\winlogo2.bmp"
+
+IDB_LSHOVER         BITMAP          "img\\lshover.bmp"
+IDB_LSSELECT        BITMAP          "img\\lsselect.bmp"
+
+IDB_HELPICONSM      BITMAP          "img\\helpiconsm.bmp"
+
+IDB_MBWARN          BITMAP          "img\\mbwarn.bmp"
+IDB_MBERROR         BITMAP          "img\\mberror.bmp"
+IDB_MBINFO          BITMAP          "img\\mbinfo.bmp"
+IDB_MBHELP          BITMAP          "img\\mbhelp.bmp"
+
+IDB_BACKNORMAL      BITMAP          "img\\backnormal.bmp"
+IDB_BACKPRESSED     BITMAP          "img\\backpressed.bmp"
+IDB_BACKDISABLED    BITMAP          "img\\backdisabled.bmp"
+IDB_BACKHOVER       BITMAP          "img\\backhover.bmp"
+
+IDB_CLOSENORMAL     BITMAP          "img\\closenormal.bmp"
+IDB_CLOSEPRESSED    BITMAP          "img\\closepressed.bmp"
+IDB_CLOSEDISABLED   BITMAP          "img\\closedisabled.bmp"
+IDB_CLOSEHOVER      BITMAP          "img\\closehover.bmp"
+
+IDB_BUTTONNORMAL    BITMAP          "img\\buttonnormal.bmp"
+IDB_BUTTONPRESSED   BITMAP          "img\\buttonpressed.bmp"
+IDB_BUTTONSELECTED  BITMAP          "img\\buttonselected.bmp"
+IDB_BUTTONDISABLED  BITMAP          "img\\buttondisabled.bmp"
+IDB_BUTTONHOVER     BITMAP          "img\\buttonhover.bmp"
+
+IDB_WINDOWBORDER    BITMAP          "img\\windowborder.bmp"
+IDB_BACKGROUND      BITMAP          "img\\background.bmp"
