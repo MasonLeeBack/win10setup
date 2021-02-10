@@ -134,5 +134,3 @@ DWORD UTLString::FormatMessageW(HINSTANCE hInstance, DWORD uID, ...)
 
     return 0;
 }
-
-// FormatMessage
