@@ -19,13 +19,9 @@ Reverse-engineered by github/masonleeback
 #define IDB_200                    200
 #define IDB_201                    201
 #define IDB_202                    202
-#define IDB_203                    203
 #define IDB_204                    204
 #define IDB_205                    205
 #define IDB_206                    206
-#define IDB_207                    207
-#define IDB_208                    208
-#define IDB_209                    209
 #define IDB_210                    210
 #define IDB_211                    211
 #define IDB_212                    212

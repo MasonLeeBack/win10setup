@@ -24,26 +24,10 @@
 // Bitmaps
 //
 
-200                 BITMAP          "img\\BITMAP200_1.bmp"
-//201 BITMAP "img\\BITMAP201_1.bmp"
-//202 BITMAP "img\\BITMAP202_1.bmp"
 IDB_LOGO            BITMAP          "img\\BITMAP203_1.bmp"
-//204 BITMAP "img\\BITMAP204_1.bmp"
-//205 BITMAP "img\\BITMAP205_1.bmp"
-//206 BITMAP "img\\BITMAP206_1.bmp"
 IDB_GOPRESSED       BITMAP          "img\\BITMAP207_1.bmp"
 IDB_GONORMAL        BITMAP          "img\\BITMAP208_1.bmp"
 IDB_GOHOVER         BITMAP          "img\\BITMAP209_1.bmp"
-//210 BITMAP "img\\BITMAP210_1.bmp"
-//211 BITMAP "img\\BITMAP211_1.bmp"
-//212 BITMAP "img\\BITMAP212_1.bmp"
-//213 BITMAP "img\\BITMAP213_1.bmp"
-//214 BITMAP "img\\BITMAP214_1.bmp"
-//215 BITMAP "img\\BITMAP215_1.bmp"
-//506 BITMAP "img\\BITMAP506_1.bmp"
-//507 BITMAP "img\\BITMAP507_1.bmp"
-//509 BITMAP "img\\BITMAP509_1.bmp"
-//510 BITMAP "img\\BITMAP510_1.bmp"
 
 
 /////////////////////////////////////////////////////////////////////////////
